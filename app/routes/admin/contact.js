@@ -6,11 +6,11 @@ export default Ember.Route.extend({
     },
 
     actions:{
-        deleteMessage(message) {
+        deleteMessage(contact) {
             let confirmation = confirm('Are you sure?');
             
             if (confirmation) {
-                library.destroyRecord();
+                contact.destroyRecord();
             }
         }
     }
