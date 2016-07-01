@@ -17,4 +17,4 @@ npm-debug.log
 testem.log
 
 #rookie mistake
-/config
+environment.js
